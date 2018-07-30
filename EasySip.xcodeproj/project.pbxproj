@@ -7,13 +7,64 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		05635B61CA98D63ED38B9557 /* Pods_EasySip.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5DCFF358210EBF9400443C8A /* Pods_EasySip.framework */; };
 		5DC7DCE0210EA783003A63D4 /* EasySip.h in Headers */ = {isa = PBXBuildFile; fileRef = 5DC7DCDE210EA783003A63D4 /* EasySip.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		5DC7DD4C210EA9DF003A63D4 /* linphonerc~ipad in Resources */ = {isa = PBXBuildFile; fileRef = 5DC7DD36210EA9DF003A63D4 /* linphonerc~ipad */; };
+		5DC7DD4D210EA9DF003A63D4 /* linphonerc-factory in Resources */ = {isa = PBXBuildFile; fileRef = 5DC7DD37210EA9DF003A63D4 /* linphonerc-factory */; };
+		5DC7DD4E210EA9DF003A63D4 /* linphonerc in Resources */ = {isa = PBXBuildFile; fileRef = 5DC7DD38210EA9DF003A63D4 /* linphonerc */; };
+		5DC7DD4F210EA9DF003A63D4 /* Log.m in Sources */ = {isa = PBXBuildFile; fileRef = 5DC7DD3A210EA9DF003A63D4 /* Log.m */; };
+		5DC7DD50210EA9DF003A63D4 /* AudioHelper.h in Headers */ = {isa = PBXBuildFile; fileRef = 5DC7DD3B210EA9DF003A63D4 /* AudioHelper.h */; };
+		5DC7DD51210EA9DF003A63D4 /* Utils.h in Headers */ = {isa = PBXBuildFile; fileRef = 5DC7DD3C210EA9DF003A63D4 /* Utils.h */; };
+		5DC7DD52210EA9DF003A63D4 /* InAppProductsManager.h in Headers */ = {isa = PBXBuildFile; fileRef = 5DC7DD3D210EA9DF003A63D4 /* InAppProductsManager.h */; };
+		5DC7DD53210EA9DF003A63D4 /* ColorSpaceUtilities.h in Headers */ = {isa = PBXBuildFile; fileRef = 5DC7DD3E210EA9DF003A63D4 /* ColorSpaceUtilities.h */; };
+		5DC7DD54210EA9DF003A63D4 /* OrderedDictionary.m in Sources */ = {isa = PBXBuildFile; fileRef = 5DC7DD3F210EA9DF003A63D4 /* OrderedDictionary.m */; };
+		5DC7DD55210EA9DF003A63D4 /* LinphoneManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 5DC7DD40210EA9DF003A63D4 /* LinphoneManager.m */; };
+		5DC7DD56210EA9DF003A63D4 /* ProviderDelegate.h in Headers */ = {isa = PBXBuildFile; fileRef = 5DC7DD41210EA9DF003A63D4 /* ProviderDelegate.h */; };
+		5DC7DD57210EA9DF003A63D4 /* FastAddressBook.m in Sources */ = {isa = PBXBuildFile; fileRef = 5DC7DD42210EA9DF003A63D4 /* FastAddressBook.m */; };
+		5DC7DD58210EA9DF003A63D4 /* InAppProductsManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 5DC7DD43210EA9DF003A63D4 /* InAppProductsManager.m */; };
+		5DC7DD59210EA9DF003A63D4 /* Utils.m in Sources */ = {isa = PBXBuildFile; fileRef = 5DC7DD44210EA9DF003A63D4 /* Utils.m */; };
+		5DC7DD5A210EA9DF003A63D4 /* AudioHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = 5DC7DD45210EA9DF003A63D4 /* AudioHelper.m */; };
+		5DC7DD5B210EA9DF003A63D4 /* Log.h in Headers */ = {isa = PBXBuildFile; fileRef = 5DC7DD46210EA9DF003A63D4 /* Log.h */; };
+		5DC7DD5C210EA9DF003A63D4 /* ColorSpaceUtilites.m in Sources */ = {isa = PBXBuildFile; fileRef = 5DC7DD47210EA9DF003A63D4 /* ColorSpaceUtilites.m */; };
+		5DC7DD5D210EA9DF003A63D4 /* LinphoneManager.h in Headers */ = {isa = PBXBuildFile; fileRef = 5DC7DD48210EA9DF003A63D4 /* LinphoneManager.h */; };
+		5DC7DD5E210EA9DF003A63D4 /* OrderedDictionary.h in Headers */ = {isa = PBXBuildFile; fileRef = 5DC7DD49210EA9DF003A63D4 /* OrderedDictionary.h */; };
+		5DC7DD5F210EA9DF003A63D4 /* FastAddressBook.h in Headers */ = {isa = PBXBuildFile; fileRef = 5DC7DD4A210EA9DF003A63D4 /* FastAddressBook.h */; };
+		5DC7DD60210EA9DF003A63D4 /* ProviderDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 5DC7DD4B210EA9DF003A63D4 /* ProviderDelegate.m */; };
+		5DC7DD63210EA9EA003A63D4 /* ESSipManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 5DC7DD61210EA9EA003A63D4 /* ESSipManager.m */; };
+		5DC7DD64210EA9EA003A63D4 /* ESSipManager.h in Headers */ = {isa = PBXBuildFile; fileRef = 5DC7DD62210EA9EA003A63D4 /* ESSipManager.h */; settings = {ATTRIBUTES = (Public, ); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		5DC7DCDB210EA783003A63D4 /* EasySip.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = EasySip.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		5DC7DCDE210EA783003A63D4 /* EasySip.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = EasySip.h; sourceTree = "<group>"; };
 		5DC7DCDF210EA783003A63D4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5DC7DD36210EA9DF003A63D4 /* linphonerc~ipad */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "linphonerc~ipad"; sourceTree = "<group>"; };
+		5DC7DD37210EA9DF003A63D4 /* linphonerc-factory */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "linphonerc-factory"; sourceTree = "<group>"; };
+		5DC7DD38210EA9DF003A63D4 /* linphonerc */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = linphonerc; sourceTree = "<group>"; };
+		5DC7DD3A210EA9DF003A63D4 /* Log.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Log.m; sourceTree = "<group>"; };
+		5DC7DD3B210EA9DF003A63D4 /* AudioHelper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AudioHelper.h; sourceTree = "<group>"; };
+		5DC7DD3C210EA9DF003A63D4 /* Utils.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Utils.h; sourceTree = "<group>"; };
+		5DC7DD3D210EA9DF003A63D4 /* InAppProductsManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = InAppProductsManager.h; sourceTree = "<group>"; };
+		5DC7DD3E210EA9DF003A63D4 /* ColorSpaceUtilities.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ColorSpaceUtilities.h; sourceTree = "<group>"; };
+		5DC7DD3F210EA9DF003A63D4 /* OrderedDictionary.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OrderedDictionary.m; sourceTree = "<group>"; };
+		5DC7DD40210EA9DF003A63D4 /* LinphoneManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LinphoneManager.m; sourceTree = "<group>"; };
+		5DC7DD41210EA9DF003A63D4 /* ProviderDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ProviderDelegate.h; sourceTree = "<group>"; };
+		5DC7DD42210EA9DF003A63D4 /* FastAddressBook.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FastAddressBook.m; sourceTree = "<group>"; };
+		5DC7DD43210EA9DF003A63D4 /* InAppProductsManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = InAppProductsManager.m; sourceTree = "<group>"; };
+		5DC7DD44210EA9DF003A63D4 /* Utils.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Utils.m; sourceTree = "<group>"; };
+		5DC7DD45210EA9DF003A63D4 /* AudioHelper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AudioHelper.m; sourceTree = "<group>"; };
+		5DC7DD46210EA9DF003A63D4 /* Log.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Log.h; sourceTree = "<group>"; };
+		5DC7DD47210EA9DF003A63D4 /* ColorSpaceUtilites.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ColorSpaceUtilites.m; sourceTree = "<group>"; };
+		5DC7DD48210EA9DF003A63D4 /* LinphoneManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LinphoneManager.h; sourceTree = "<group>"; };
+		5DC7DD49210EA9DF003A63D4 /* OrderedDictionary.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OrderedDictionary.h; sourceTree = "<group>"; };
+		5DC7DD4A210EA9DF003A63D4 /* FastAddressBook.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FastAddressBook.h; sourceTree = "<group>"; };
+		5DC7DD4B210EA9DF003A63D4 /* ProviderDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ProviderDelegate.m; sourceTree = "<group>"; };
+		5DC7DD61210EA9EA003A63D4 /* ESSipManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ESSipManager.m; sourceTree = "<group>"; };
+		5DC7DD62210EA9EA003A63D4 /* ESSipManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ESSipManager.h; sourceTree = "<group>"; };
+		5DCFF356210EBF8800443C8A /* Pods_EasySip.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = Pods_EasySip.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		5DCFF358210EBF9400443C8A /* Pods_EasySip.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = Pods_EasySip.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		A1269DDA3A6602CF1F86A482 /* Pods-EasySip.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-EasySip.release.xcconfig"; path = "Pods/Target Support Files/Pods-EasySip/Pods-EasySip.release.xcconfig"; sourceTree = "<group>"; };
+		A72445BDDFC31B849334E785 /* Pods-EasySip.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-EasySip.debug.xcconfig"; path = "Pods/Target Support Files/Pods-EasySip/Pods-EasySip.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -21,17 +72,38 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				05635B61CA98D63ED38B9557 /* Pods_EasySip.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		146611BECB7299D9CA3ECC2E /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				5DCFF358210EBF9400443C8A /* Pods_EasySip.framework */,
+				5DCFF356210EBF8800443C8A /* Pods_EasySip.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		30EF5D3253FACCB1C56F7D22 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				A72445BDDFC31B849334E785 /* Pods-EasySip.debug.xcconfig */,
+				A1269DDA3A6602CF1F86A482 /* Pods-EasySip.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 		5DC7DCD1210EA783003A63D4 = {
 			isa = PBXGroup;
 			children = (
 				5DC7DCDD210EA783003A63D4 /* EasySip */,
 				5DC7DCDC210EA783003A63D4 /* Products */,
+				30EF5D3253FACCB1C56F7D22 /* Pods */,
+				146611BECB7299D9CA3ECC2E /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -46,10 +118,49 @@
 		5DC7DCDD210EA783003A63D4 /* EasySip */ = {
 			isa = PBXGroup;
 			children = (
+				5DC7DD39210EA9DF003A63D4 /* liblinphone */,
+				5DC7DD35210EA9DF003A63D4 /* Resources */,
 				5DC7DCDE210EA783003A63D4 /* EasySip.h */,
+				5DC7DD62210EA9EA003A63D4 /* ESSipManager.h */,
+				5DC7DD61210EA9EA003A63D4 /* ESSipManager.m */,
 				5DC7DCDF210EA783003A63D4 /* Info.plist */,
 			);
 			path = EasySip;
+			sourceTree = "<group>";
+		};
+		5DC7DD35210EA9DF003A63D4 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				5DC7DD36210EA9DF003A63D4 /* linphonerc~ipad */,
+				5DC7DD37210EA9DF003A63D4 /* linphonerc-factory */,
+				5DC7DD38210EA9DF003A63D4 /* linphonerc */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		5DC7DD39210EA9DF003A63D4 /* liblinphone */ = {
+			isa = PBXGroup;
+			children = (
+				5DC7DD3A210EA9DF003A63D4 /* Log.m */,
+				5DC7DD3B210EA9DF003A63D4 /* AudioHelper.h */,
+				5DC7DD3C210EA9DF003A63D4 /* Utils.h */,
+				5DC7DD3D210EA9DF003A63D4 /* InAppProductsManager.h */,
+				5DC7DD3E210EA9DF003A63D4 /* ColorSpaceUtilities.h */,
+				5DC7DD3F210EA9DF003A63D4 /* OrderedDictionary.m */,
+				5DC7DD40210EA9DF003A63D4 /* LinphoneManager.m */,
+				5DC7DD41210EA9DF003A63D4 /* ProviderDelegate.h */,
+				5DC7DD42210EA9DF003A63D4 /* FastAddressBook.m */,
+				5DC7DD43210EA9DF003A63D4 /* InAppProductsManager.m */,
+				5DC7DD44210EA9DF003A63D4 /* Utils.m */,
+				5DC7DD45210EA9DF003A63D4 /* AudioHelper.m */,
+				5DC7DD46210EA9DF003A63D4 /* Log.h */,
+				5DC7DD47210EA9DF003A63D4 /* ColorSpaceUtilites.m */,
+				5DC7DD48210EA9DF003A63D4 /* LinphoneManager.h */,
+				5DC7DD49210EA9DF003A63D4 /* OrderedDictionary.h */,
+				5DC7DD4A210EA9DF003A63D4 /* FastAddressBook.h */,
+				5DC7DD4B210EA9DF003A63D4 /* ProviderDelegate.m */,
+			);
+			path = liblinphone;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -59,7 +170,17 @@
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5DC7DD56210EA9DF003A63D4 /* ProviderDelegate.h in Headers */,
+				5DC7DD64210EA9EA003A63D4 /* ESSipManager.h in Headers */,
+				5DC7DD51210EA9DF003A63D4 /* Utils.h in Headers */,
+				5DC7DD5F210EA9DF003A63D4 /* FastAddressBook.h in Headers */,
+				5DC7DD53210EA9DF003A63D4 /* ColorSpaceUtilities.h in Headers */,
+				5DC7DD5E210EA9DF003A63D4 /* OrderedDictionary.h in Headers */,
+				5DC7DD5B210EA9DF003A63D4 /* Log.h in Headers */,
 				5DC7DCE0210EA783003A63D4 /* EasySip.h in Headers */,
+				5DC7DD50210EA9DF003A63D4 /* AudioHelper.h in Headers */,
+				5DC7DD52210EA9DF003A63D4 /* InAppProductsManager.h in Headers */,
+				5DC7DD5D210EA9DF003A63D4 /* LinphoneManager.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -70,6 +191,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 5DC7DCE3210EA783003A63D4 /* Build configuration list for PBXNativeTarget "EasySip" */;
 			buildPhases = (
+				373C20732B7215A9E8F14C28 /* [CP] Check Pods Manifest.lock */,
 				5DC7DCD6210EA783003A63D4 /* Sources */,
 				5DC7DCD7210EA783003A63D4 /* Frameworks */,
 				5DC7DCD8210EA783003A63D4 /* Headers */,
@@ -104,6 +226,7 @@
 			hasScannedForEncodings = 0;
 			knownRegions = (
 				en,
+				Base,
 			);
 			mainGroup = 5DC7DCD1210EA783003A63D4;
 			productRefGroup = 5DC7DCDC210EA783003A63D4 /* Products */;
@@ -120,16 +243,50 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5DC7DD4C210EA9DF003A63D4 /* linphonerc~ipad in Resources */,
+				5DC7DD4E210EA9DF003A63D4 /* linphonerc in Resources */,
+				5DC7DD4D210EA9DF003A63D4 /* linphonerc-factory in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		373C20732B7215A9E8F14C28 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-EasySip-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		5DC7DCD6210EA783003A63D4 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5DC7DD55210EA9DF003A63D4 /* LinphoneManager.m in Sources */,
+				5DC7DD4F210EA9DF003A63D4 /* Log.m in Sources */,
+				5DC7DD58210EA9DF003A63D4 /* InAppProductsManager.m in Sources */,
+				5DC7DD59210EA9DF003A63D4 /* Utils.m in Sources */,
+				5DC7DD63210EA9EA003A63D4 /* ESSipManager.m in Sources */,
+				5DC7DD60210EA9DF003A63D4 /* ProviderDelegate.m in Sources */,
+				5DC7DD54210EA9DF003A63D4 /* OrderedDictionary.m in Sources */,
+				5DC7DD5C210EA9DF003A63D4 /* ColorSpaceUtilites.m in Sources */,
+				5DC7DD5A210EA9DF003A63D4 /* AudioHelper.m in Sources */,
+				5DC7DD57210EA9DF003A63D4 /* FastAddressBook.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -254,6 +411,7 @@
 		};
 		5DC7DCE4210EA783003A63D4 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = A72445BDDFC31B849334E785 /* Pods-EasySip.debug.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "";
 				CODE_SIGN_STYLE = Automatic;
@@ -277,6 +435,7 @@
 		};
 		5DC7DCE5210EA783003A63D4 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = A1269DDA3A6602CF1F86A482 /* Pods-EasySip.release.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "";
 				CODE_SIGN_STYLE = Automatic;

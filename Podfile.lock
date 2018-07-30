@@ -1,0 +1,16 @@
+PODS:
+  - liblinphone (3.99.7)
+
+DEPENDENCIES:
+  - liblinphone
+
+SPEC REPOS:
+  https://gitlab.linphone.org/BC/public/Specs.git:
+    - liblinphone
+
+SPEC CHECKSUMS:
+  liblinphone: f6cd93cd1934719ac22a98fba08c89c37b09c624
+
+PODFILE CHECKSUM: 24aa2d84119ca17c4d7d50157b1924bfef0c10d6
+
+COCOAPODS: 1.5.3
