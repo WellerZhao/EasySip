@@ -26,7 +26,6 @@
 		5DC7DD5A210EA9DF003A63D4 /* AudioHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = 5DC7DD45210EA9DF003A63D4 /* AudioHelper.m */; };
 		5DC7DD5B210EA9DF003A63D4 /* Log.h in Headers */ = {isa = PBXBuildFile; fileRef = 5DC7DD46210EA9DF003A63D4 /* Log.h */; };
 		5DC7DD5C210EA9DF003A63D4 /* ColorSpaceUtilites.m in Sources */ = {isa = PBXBuildFile; fileRef = 5DC7DD47210EA9DF003A63D4 /* ColorSpaceUtilites.m */; };
-		5DC7DD5D210EA9DF003A63D4 /* LinphoneManager.h in Headers */ = {isa = PBXBuildFile; fileRef = 5DC7DD48210EA9DF003A63D4 /* LinphoneManager.h */; };
 		5DC7DD5E210EA9DF003A63D4 /* OrderedDictionary.h in Headers */ = {isa = PBXBuildFile; fileRef = 5DC7DD49210EA9DF003A63D4 /* OrderedDictionary.h */; };
 		5DC7DD5F210EA9DF003A63D4 /* FastAddressBook.h in Headers */ = {isa = PBXBuildFile; fileRef = 5DC7DD4A210EA9DF003A63D4 /* FastAddressBook.h */; };
 		5DC7DD60210EA9DF003A63D4 /* ProviderDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 5DC7DD4B210EA9DF003A63D4 /* ProviderDelegate.m */; };
@@ -180,7 +179,6 @@
 				5DC7DCE0210EA783003A63D4 /* EasySip.h in Headers */,
 				5DC7DD50210EA9DF003A63D4 /* AudioHelper.h in Headers */,
 				5DC7DD52210EA9DF003A63D4 /* InAppProductsManager.h in Headers */,
-				5DC7DD5D210EA9DF003A63D4 /* LinphoneManager.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
