@@ -13,7 +13,7 @@
 
 NSString *const ES_ON_REMOTE_OPEN_CEMERA = @"ES_ON_REMOTE_OPEN_CEMERA";
 NSString *const ES_ON_CALL_COMMING = @"ES_ON_CALL_COMMING";
-NSString *const ES_ON_CALL_COMMING = @"ES_ON_CALL_END";
+NSString *const ES_ON_CALL_END = @"ES_ON_CALL_END";
 
 @implementation ESSipManager
 
