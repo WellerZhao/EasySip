@@ -7,7 +7,7 @@
 //
 
 #import "ESSipManager.h"
-#import "LinphoneManager.h"
+#import "liblinphone/LinphoneManager.h"
 
 #define LC ([LinphoneManager getLc])
 
