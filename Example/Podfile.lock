@@ -1,0 +1,20 @@
+PODS:
+  - EasySip (0.0.2):
+    - liblinphone (~> 3.99.7)
+  - liblinphone (3.99.8)
+
+DEPENDENCIES:
+  - EasySip (~> 0.0.2)
+
+SPEC REPOS:
+  https://github.com/cocoapods/specs.git:
+    - EasySip
+    - liblinphone
+
+SPEC CHECKSUMS:
+  EasySip: 102375a05d29e7fd726650f6d41a5816081417dc
+  liblinphone: 187b5f21c5b6ad85a6093724a8ef03c081de2997
+
+PODFILE CHECKSUM: e2ee7cf4db014c9746367e42f56d5fd7f26f10e0
+
+COCOAPODS: 1.5.3
