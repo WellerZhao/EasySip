@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		05635B61CA98D63ED38B9557 /* Pods_EasySip.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5DCFF358210EBF9400443C8A /* Pods_EasySip.framework */; };
+		5D5817D8210FED6600A1A3EF /* LinphoneManager.h in Headers */ = {isa = PBXBuildFile; fileRef = 5DC7DD48210EA9DF003A63D4 /* LinphoneManager.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		5DC7DCE0210EA783003A63D4 /* EasySip.h in Headers */ = {isa = PBXBuildFile; fileRef = 5DC7DCDE210EA783003A63D4 /* EasySip.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		5DC7DD4C210EA9DF003A63D4 /* linphonerc~ipad in Resources */ = {isa = PBXBuildFile; fileRef = 5DC7DD36210EA9DF003A63D4 /* linphonerc~ipad */; };
 		5DC7DD4D210EA9DF003A63D4 /* linphonerc-factory in Resources */ = {isa = PBXBuildFile; fileRef = 5DC7DD37210EA9DF003A63D4 /* linphonerc-factory */; };
@@ -171,6 +172,7 @@
 			files = (
 				5DC7DD56210EA9DF003A63D4 /* ProviderDelegate.h in Headers */,
 				5DC7DD64210EA9EA003A63D4 /* ESSipManager.h in Headers */,
+				5D5817D8210FED6600A1A3EF /* LinphoneManager.h in Headers */,
 				5DC7DD51210EA9DF003A63D4 /* Utils.h in Headers */,
 				5DC7DD5F210EA9DF003A63D4 /* FastAddressBook.h in Headers */,
 				5DC7DD53210EA9DF003A63D4 /* ColorSpaceUtilities.h in Headers */,

@@ -12,6 +12,8 @@
 #define LC ([LinphoneManager getLc])
 
 NSString *const ES_ON_REMOTE_OPEN_CEMERA = @"ES_ON_REMOTE_OPEN_CEMERA";
+NSString *const ES_ON_CALL_COMMING = @"ES_ON_CALL_COMMING";
+NSString *const ES_ON_CALL_COMMING = @"ES_ON_CALL_END";
 
 @implementation ESSipManager
 
@@ -186,12 +188,14 @@ static ESSipManager* _instance = nil;
     NSString* message = [userInfo valueForKey:@"message"];
     NSLog(@"========== state: %d  %d, message: %@", state, LinphoneCallStateStreamsRunning, message);
     LinphoneCall* call = c.pointerValue;
-    if (state == 18) {
-        [[ESSipManager instance] acceptCall:call];
-    }
+    
+    NSDictionary *dict = @{@"call" : [NSValue valueWithPointer:call],
+                           @"state" : [NSNumber numberWithInt:state],
+                           @"message" : message};
 
     switch (state) {
         case 18://LinphoneCallIncomingReceived
+            [NSNotificationCenter.defaultCenter postNotificationName:ES_ON_CALL_COMMING object: self userInfo:dict];
         case LinphoneCallOutgoingInit:
         case 98://LinphoneCallConnected
         case 114: {//LinphoneCallStreamsRunning
@@ -223,9 +227,7 @@ static ESSipManager* _instance = nil;
                   floor(NSFoundationVersionNumber) > NSFoundationVersionNumber_iOS_9_x_Max))) {
                      linphone_core_defer_call_update([LinphoneManager getLc], call);
                      
-                     NSDictionary *dict = @{@"call" : [NSValue valueWithPointer:call],
-                                            @"state" : [NSNumber numberWithInt:state],
-                                            @"message" : message};
+                     
                      [NSNotificationCenter.defaultCenter postNotificationName:ES_ON_REMOTE_OPEN_CEMERA object: self userInfo:dict];
                      
 //                     [self allowToOpenCameraByRemote:call];
@@ -241,6 +243,7 @@ static ESSipManager* _instance = nil;
         case LinphoneCallPausedByRemote:
             break;
         case 210://LinphoneCallEnd
+            [NSNotificationCenter.defaultCenter postNotificationName:ES_ON_CALL_END object: self userInfo:NULL];
         case LinphoneCallError:
         default:
             break;

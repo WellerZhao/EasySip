@@ -13,6 +13,8 @@
 typedef struct LinphoneCall ESCall;
 
 extern NSString *const ES_ON_REMOTE_OPEN_CEMERA;
+extern NSString *const ES_ON_CALL_COMMING;
+extern NSString *const ES_ON_CALL_END;
 
 @interface ESSipManager : NSObject
 
