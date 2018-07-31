@@ -94,7 +94,7 @@ Pod::Spec.new do |s|
   s.source_files  = "EasySip/*.{h,m}", "EasySip/liblinphone/*.{h,m}"
   # s.exclude_files = "Classes/Exclude"
 
-  s.public_header_files = "EasySip/*.h", "EasySip/liblinphone/LinphoneManager.h"
+  s.public_header_files = "EasySip/*.h"
 
 
   # ――― Resources ―――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
